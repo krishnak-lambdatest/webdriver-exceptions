@@ -6,7 +6,7 @@ The reason for the execution failure is generally provided in the error message,
 
 ## Example
 
-The below script attempts to use an undefined variable. This usually is thrown as a ReferenceError by JavaScript. It is caught by WebDriver and is serialized as a JavaScript error:
+The below script attempts to use an undefined variable. This usually is thrown as a `ReferenceError` by JavaScript. It is caught by WebDriver and is serialized as a JavaScript error:
 
 ```
 from selenium import webdriver
