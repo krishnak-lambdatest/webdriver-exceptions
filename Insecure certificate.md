@@ -1,5 +1,5 @@
 # Insecure certificate error
-This WebDriver error arises when the browser controlled remotely faces a certificate warning. This error is generally the consequence of visiting a website with an expired or invalid TLS certificate. These invalid certificates could either be self-signed, revoked, or cryptographically insecure certificates. 
+The WebDriver error - insecure certificate error, arises when the browser controlled remotely faces a certificate warning. This error is generally the consequence of visiting a website with an expired or invalid TLS certificate. These invalid certificates could either be self-signed, revoked, or cryptographically insecure certificates.
 
 Web browsers do not send information to domains with broken certificates because communication with the server will be compromised. It is highly recommended that instead of disabling certificate checks in test environments, administrators fix the certificate situation. This is recommended even for test deployments.
 
