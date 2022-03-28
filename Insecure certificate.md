@@ -3,7 +3,7 @@ The WebDriver error - insecure certificate error, arises when the browser contro
 
 Web browsers do not send information to domains with broken certificates because communication with the server will be compromised. It is highly recommended that instead of disabling certificate checks in test environments, administrators fix the certificate situation. This is recommended even for test deployments.
 
-The WebDriver offers an acceptInsecureCerts capability for disabling certificate checks for the current session's duration. Its use, however, should be avoided.
+The WebDriver offers an `acceptInsecureCerts` capability for disabling certificate checks for the current session's duration. Its use, however, should be avoided.
 
 ## Example
 
