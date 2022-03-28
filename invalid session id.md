@@ -1,4 +1,4 @@
-# Invalid session ID
+# Invalid session ID error
 
 This WebDriver error - invalid session ID error, happens if the unique session identifier is not recognized by the server. It also occurs when the session ID is not valid or the session has been removed.
 
