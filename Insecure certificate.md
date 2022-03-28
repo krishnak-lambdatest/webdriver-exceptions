@@ -7,7 +7,7 @@ The WebDriver offers an acceptInsecureCerts capability for disabling certificate
 
 ## Example
 
-When connecting to a domain that has a self-signed TLS certificate using Python, you will receive the following error:
+A error will occur when connecting to a domain that has a self-signed TLS certificate using the following Python code:
 
 
 	from selenium import webdriver
