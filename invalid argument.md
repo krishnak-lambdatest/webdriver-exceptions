@@ -1,6 +1,6 @@
 # Invalid argument error
 
-This WebDriver error arises when invalid arguments are passed to a command.
+The WebDriver error - invalid argument error, arises when invalid arguments are passed to a command.
 
 The InvalidArgument error is somewhat similar to a TypeError in JavaScript, as both errors can occur for various APIs when the input value is not of the expected type, or is distorted in some way. Look at the type and bounds constraints for every WebDriver command.
 
