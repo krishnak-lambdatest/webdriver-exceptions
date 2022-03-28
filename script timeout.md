@@ -1,4 +1,4 @@
-# Script timeout
+# Script timeout error
 The WebDriver error - script timeout error happens when a user script fails to complete before the script timeout duration of the session expires.
 
 The script timeout duration is a configurable capability—meaning you can change how long it takes for the driver to interrupt an injected script. The driver will wait up to 30 seconds, by default, before interrupting the script and returning with a script timeout error. This can be modified to be longer, shorter, or indefinite. 
