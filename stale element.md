@@ -39,7 +39,7 @@ Output:
 
 	StaleElementReferenceException: The element reference of e75a1764-ff73-40fa-93c1-08cb90394b65 is stale either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed
 
-### Node removal
+### Removal of node
 
 A document node's web element reference will be invalidated when the node is deleted from the DOM. Any subsequent reference to the web element will also throw the same error:
 
